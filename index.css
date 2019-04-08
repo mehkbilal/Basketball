@@ -1,0 +1,26 @@
+.spin {
+ 
+  animation:spin 1s linear 1;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.container { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#basketball{
+  height:500px;
+  width:500px;
+}
+
+body {
+  background-color: black;
+}
+
+#text{
+  font: bold;
+  color: white
+}
